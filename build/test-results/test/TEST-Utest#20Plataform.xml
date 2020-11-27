@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Utest Plataform" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-27T05:00:53" hostname="CHMEPPF1JVKUB" time="19.498">
+  <properties/>
+  <testcase name="Plataform Registration" classname="Utest Plataform" time="19.498"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@29f2b9de
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3bd9797e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@57de73f6
+nov 27, 2020 12:00:53 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 40697
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1606453256.775][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+nov 27, 2020 12:00:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@651b202
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2ffc4867
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5cd994da
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@9fd602
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4bb1d90a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@52432309
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@160f9923
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@53f6a6aa
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7accd9cc
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@523f6950
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day, Maria select 1995 on input year]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6b4de8a8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day, Maria select 1995 on input year, Maria clicks on botton next]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day, Maria select 1995 on input year, Maria clicks on botton next]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day, Maria select 1995 on input year, Maria clicks on botton next]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@617c551d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day, Maria select 1995 on input year, Maria clicks on botton next]], Then validate the button Complete Stetup
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day, Maria select 1995 on input year, Maria clicks on botton next]], Then validate the button Complete Stetup
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day, Maria select 1995 on input year, Maria clicks on botton next]], Then validate the button Complete Stetup]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Plataform Registration:Given than Maria wants to register on the Utes platform [Maria open up [Maria opens the Utest page], Maria joins registration [Maria clicks on Button join]], When she enter her data in the registration form
+| firstName | lastName | emailAddress | month | day | year |
+| Ana | Gomez | anagomez@gmail.com | May | 23 | 1995 | [Maria registration basic [Maria enters 'Ana' into imput name, Maria enters 'Gomez' into input lastname, Maria enters 'anagomez@gmail.com' into input email, Maria select May on input month, Maria select 23 on input day, Maria select 1995 on input year, Maria clicks on botton next]], Then validate the button Complete Stetup]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Plataform Registration
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
